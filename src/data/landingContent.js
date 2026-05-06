@@ -1,6 +1,6 @@
-export const WHATSAPP_LINK = "https://wa.me/6285156196907"
+export const WHATSAPP_LINK = "https://wa.me/6282113133165"
 export const WHATSAPP_LINK_PREFILLED =
-  "https://wa.me/6285156196907?text=Halo%20Jisoi%2C%20saya%20ingin%20konsultasi%20custom%20pouch%20untuk%20merchandise%2Fevent"
+  "https://wa.me/6282113133165?text=Halo%20Jisoi%2C%20saya%20ingin%20konsultasi%20custom%20pouch%20untuk%20merchandise%2Fevent"
 
 export const BUSINESS_INFO = {
   brand: "Jisoi Official Store",
@@ -8,7 +8,7 @@ export const BUSINESS_INFO = {
   address: "Jl. Raya Cileungsi-Jonggol Km. 10, Cipeuang, Cileungsi, Bogor, Jawa Barat 16820",
   website: "www.jisoi.net",
   email: "info@jisoi.net",
-  whatsapp: "6285156196907",
+  whatsapp: "6282113133165",
 }
 
 export const PRODUCT_INFO = {
