@@ -1,6 +1,6 @@
-export const WHATSAPP_LINK = "https://wa.me/6282113133165"
+export const WHATSAPP_LINK = "https://wa.me/6285819924441"
 export const WHATSAPP_LINK_PREFILLED =
-  "https://wa.me/6282113133165?text=Halo%20Jisoi%2C%20saya%20ingin%20konsultasi%20custom%20pouch%20untuk%20merchandise%2Fevent"
+  "https://wa.me/6285819924441?text=Halo%20Jisoi%2C%20saya%20ingin%20konsultasi%20custom%20pouch%20untuk%20merchandise%2Fevent"
 
 export const BUSINESS_INFO = {
   brand: "Jisoi Official Store",
@@ -8,7 +8,7 @@ export const BUSINESS_INFO = {
   address: "Jl. Raya Cileungsi-Jonggol Km. 10, Cipeuang, Cileungsi, Bogor, Jawa Barat 16820",
   website: "www.jisoi.net",
   email: "info@jisoi.net",
-  whatsapp: "6282113133165",
+  whatsapp: "6285819924441",
 }
 
 export const PRODUCT_INFO = {
@@ -53,7 +53,6 @@ export const TESTIMONIALS = [
     company: "PT Kreatif Digital",
     role: "Marketing Manager",
     quote: "Jisoi sangat membantu untuk merchandise event kami. Prosesnya cepat, mockupnya akurat, dan hasil cetaknya memuaskan. Sudah order 3x untuk event berbeda!",
-    image: "https://i.pravatar.cc/150?img=1&u=rina",
     rating: 5,
   },
   {
@@ -61,7 +60,6 @@ export const TESTIMONIALS = [
     company: "Komunitas Design Indonesia",
     role: "Community Lead",
     quote: "Yang paling suka adalah tanpa minimal order. Kami bisa pesan untuk kebutuhan komunitas kecil tanpa khawatir biaya. Harganya juga transparan, tidak ada biaya tersembunyi.",
-    image: "https://i.pravatar.cc/150?img=2&u=budi",
     rating: 5,
   },
   {
@@ -69,7 +67,6 @@ export const TESTIMONIALS = [
     company: "Studio Desain Grafis",
     role: "Founder",
     quote: "Free mockup-nya sangat membantu untuk presentasi ke klien. Klien bisa lihat preview sebelum produksi. Turnover time Jisoi juga cepat, cocok untuk deadline ketat.",
-    image: "https://i.pravatar.cc/150?img=3&u=siti",
     rating: 5,
   },
   {
@@ -77,7 +74,6 @@ export const TESTIMONIALS = [
     company: "Startup Tech SouvenirID",
     role: "CEO",
     quote: "Untuk souvenir giveaway di meetup tech kami, Jisoi adalah pilihan terbaik. Kualitas bagus, proses fleksibel, dan tim responsif di WhatsApp. Highly recommended!",
-    image: "https://i.pravatar.cc/150?img=4&u=ahmad",
     rating: 5,
   },
 ]

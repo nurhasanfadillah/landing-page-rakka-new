@@ -48,23 +48,8 @@ export default function Testimonials() {
 
               {/* Author */}
               <div className="flex items-center gap-3">
-                <div className="relative">
-                  <img
-                    src={testimonial.image}
-                    alt={testimonial.name}
-                    className="w-12 h-12 rounded-full bg-jisoi-sand object-cover"
-                    loading="lazy"
-                    onError={(e) => {
-                      e.target.style.display = 'none'
-                      e.target.nextSibling.style.display = 'flex'
-                    }}
-                  />
-                  {/* Fallback avatar */}
-                  <div
-                    className="w-12 h-12 rounded-full bg-jisoi-red/20 items-center justify-center text-jisoi-red font-bold text-sm hidden absolute top-0 left-0"
-                  >
-                    {testimonial.name.split(' ').map(n => n[0]).join('').slice(0, 2)}
-                  </div>
+                <div className="w-12 h-12 rounded-full bg-jisoi-red/20 flex items-center justify-center text-jisoi-red font-bold text-sm flex-shrink-0">
+                  {testimonial.name.split(' ').map(n => n[0]).join('').slice(0, 2)}
                 </div>
                 <div>
                   <p className="text-sm font-semibold text-jisoi-text">
