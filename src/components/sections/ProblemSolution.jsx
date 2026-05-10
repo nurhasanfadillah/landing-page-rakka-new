@@ -2,6 +2,7 @@ import { motion } from "framer-motion"
 import { Container } from "@/components/ui/Container"
 import { Button } from "@/components/ui/Button"
 import { WHATSAPP_LINK } from "@/data/landingContent"
+import { XCircle, CheckCircle } from "lucide-react"
 
 const PROBLEM_SOLUTIONS = [
   {
@@ -52,11 +53,11 @@ export default function ProblemSolution() {
               className="rounded-[20px] overflow-hidden border border-jisoi-border"
             >
               <div className="flex items-start gap-3 px-4 py-3 bg-red-50">
-                <span className="text-jisoi-red font-bold mt-0.5 flex-shrink-0">✕</span>
+                <XCircle className="w-5 h-5 text-jisoi-red mt-0.5 flex-shrink-0" aria-hidden="true" />
                 <span className="text-sm text-jisoi-text/70">{item.problem}</span>
               </div>
               <div className="flex items-start gap-3 px-4 py-3 bg-jisoi-cream">
-                <span className="text-green-600 font-bold mt-0.5 flex-shrink-0">✓</span>
+                <CheckCircle className="w-5 h-5 text-green-600 mt-0.5 flex-shrink-0" aria-hidden="true" />
                 <span className="text-sm font-medium text-jisoi-text">{item.solution}</span>
               </div>
             </motion.div>
