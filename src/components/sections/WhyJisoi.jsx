@@ -11,7 +11,7 @@ const WHY_IMAGES = {
 
 export default function WhyJisoi() {
   return (
-    <section className="py-10 sm:py-14 md:py-20 bg-jisoi-cream">
+    <section className="py-10 sm:py-14 md:py-20 bg-jisoi-cream" id="keunggulan">
       <Container>
         <motion.div
           initial={{ opacity: 0, y: 20 }}

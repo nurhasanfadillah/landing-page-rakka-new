@@ -28,7 +28,7 @@ const PROBLEM_SOLUTIONS = [
 
 export default function ProblemSolution() {
   return (
-    <section className="py-10 sm:py-14 md:py-20 bg-white">
+    <section className="py-10 sm:py-14 md:py-20 bg-white" id="solusi">
       <Container>
         <motion.div
           initial={{ opacity: 0, y: 20 }}

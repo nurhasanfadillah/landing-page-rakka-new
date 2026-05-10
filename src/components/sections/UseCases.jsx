@@ -13,7 +13,7 @@ const USE_CASE_IMAGES = {
 
 export default function UseCases() {
   return (
-    <section className="py-10 sm:py-14 md:py-20 bg-white">
+    <section className="py-10 sm:py-14 md:py-20 bg-white" id="penggunaan">
       <Container>
         <motion.div
           initial={{ opacity: 0, y: 20 }}

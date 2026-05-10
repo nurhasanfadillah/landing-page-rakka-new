@@ -2,11 +2,11 @@ import { motion } from "framer-motion"
 import { Container } from "@/components/ui/Container"
 import { Button } from "@/components/ui/Button"
 import { Badge } from "@/components/ui/Badge"
-import { WHATSAPP_LINK_PREFILLED } from "@/data/landingContent"
+import { WHATSAPP_LINK_PREFILLED, SCARCITY_BADGE } from "@/data/landingContent"
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen pt-16 flex items-center bg-gradient-to-br from-jisoi-black via-jisoi-burgundy to-jisoi-red">
+    <section className="relative min-h-screen pt-16 flex items-center bg-gradient-to-br from-jisoi-black via-jisoi-burgundy to-jisoi-red" id="hero">
       <Container className="grid md:grid-cols-2 gap-4 md:gap-8 items-center py-10 sm:py-14 md:py-20">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -42,9 +42,14 @@ export default function Hero() {
               <a href="#harga">Lihat harga & keunggulan</a>
             </Button>
           </div>
-          <p className="text-sm text-white/60">
-            Free mockup • Garansi retur • Kapasitas 30.000 pcs/bulan
-          </p>
+          <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm">
+            <span className="text-white/60">Free mockup • Garansi retur • Kapasitas 30.000 pcs/bulan</span>
+            {SCARCITY_BADGE && (
+              <Badge variant="destructive" className="animate-pulse bg-jisoi-amber text-jisoi-burgundy text-[10px]">
+                {SCARCITY_BADGE}
+              </Badge>
+            )}
+          </div>
         </motion.div>
 
         <motion.div

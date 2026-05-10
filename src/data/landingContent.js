@@ -1,7 +1,15 @@
+// === WhatsApp Links ===
 export const WHATSAPP_LINK = "https://wa.me/6285819924441"
 export const WHATSAPP_LINK_PREFILLED =
   "https://wa.me/6285819924441?text=Halo%20Jisoi%2C%20saya%20ingin%20konsultasi%20custom%20pouch%20untuk%20merchandise%2Fevent"
 
+// === Scarcity / Urgency ===
+// Setel ke null untuk nonaktifkan, atau isi teks seperti:
+// "🚀 Sisa 5 slot produksi minggu ini"
+// "⏰ Promo early bird: diskon 10% untuk order sebelum H-7"
+export const SCARCITY_BADGE = "🔥 Sisa 5 slot produksi minggu ini"
+
+// === Business Info ===
 export const BUSINESS_INFO = {
   brand: "Jisoi Official Store",
   company: "PT. Redone Berkah Mandiri Utama",
@@ -11,6 +19,7 @@ export const BUSINESS_INFO = {
   whatsapp: "6285819924441",
 }
 
+// === Product Info ===
 export const PRODUCT_INFO = {
   name: "Custom Pouch DTF",
   size: "22 × 12,5 × 6,5 cm",
@@ -20,6 +29,7 @@ export const PRODUCT_INFO = {
   colors: "Berbagai pilihan warna, hitam selalu ready stock",
 }
 
+// === Pricing ===
 export const PRICING = [
   {
     label: "Order di bawah 10 pcs",
@@ -40,6 +50,7 @@ export const PRICING = [
   },
 ]
 
+// === Trust Items ===
 export const TRUST_ITEMS = [
   { label: "Free Desain Mockup", proof: "Kirim logo, kami bantu visualkan." },
   { label: "Desain Full Color", proof: "Cocok untuk logo, pattern, dan campaign." },
@@ -49,6 +60,7 @@ export const TRUST_ITEMS = [
   { label: "30.000 pcs/bulan", proof: "Siap untuk kebutuhan corporate dan massal." },
 ]
 
+// === Testimonials ===
 export const TESTIMONIALS = [
   {
     name: "Rina Pratama",
@@ -80,6 +92,7 @@ export const TESTIMONIALS = [
   },
 ]
 
+// === FAQ ===
 export const FAQ_ITEMS = [
   {
     question: "Apakah benar tanpa minimal order?",
@@ -113,6 +126,7 @@ export const FAQ_ITEMS = [
   },
 ]
 
+// === Use Cases ===
 export const USE_CASES = [
   {
     title: "Merchandise kantor",
@@ -146,6 +160,7 @@ export const USE_CASES = [
   },
 ]
 
+// === Workflow Steps ===
 export const WORKFLOW_STEPS = [
   {
     title: "Chat kebutuhan",
@@ -169,6 +184,7 @@ export const WORKFLOW_STEPS = [
   },
 ]
 
+// === Why Jisoi ===
 export const WHY_JISOI = [
   {
     title: "Tanpa minimum order",

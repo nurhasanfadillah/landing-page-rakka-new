@@ -5,7 +5,7 @@ import { Star } from "lucide-react"
 
 export default function Testimonials() {
   return (
-    <section className="py-10 sm:py-14 md:py-20 bg-white">
+    <section className="py-10 sm:py-14 md:py-20 bg-white" id="testimoni">
       <Container>
         <motion.div
           initial={{ opacity: 0, y: 20 }}

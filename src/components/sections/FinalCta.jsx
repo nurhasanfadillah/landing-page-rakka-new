@@ -5,7 +5,7 @@ import { WHATSAPP_LINK } from "@/data/landingContent"
 
 export default function FinalCta() {
   return (
-    <section className="py-10 sm:py-14 md:py-20 bg-jisoi-red">
+    <section className="py-10 sm:py-14 md:py-20 bg-jisoi-red" id="mulai">
       <Container className="text-center text-white">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -18,15 +18,27 @@ export default function FinalCta() {
           <p className="text-lg text-white/80 mb-8 max-w-2xl mx-auto">
             Cocok untuk merchandise bisnis, souvenir event, komunitas, dan kebutuhan branding tanpa minimum order.
           </p>
-          <Button
-            size="lg"
-            className="bg-jisoi-amber text-jisoi-burgundy hover:bg-jisoi-amber/90"
-            asChild
-          >
-            <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer">
-              Chat WhatsApp — Gratis, Tanpa Komitmen
-            </a>
-          </Button>
+          <div className="flex flex-wrap gap-4 justify-center">
+            <Button
+              size="lg"
+              className="bg-jisoi-amber text-jisoi-burgundy hover:bg-jisoi-amber/90"
+              asChild
+            >
+              <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer">
+                Chat WhatsApp — Gratis, Tanpa Komitmen
+              </a>
+            </Button>
+            <Button
+              size="lg"
+              variant="outline"
+              className="text-white border-white/30 hover:bg-white/10"
+              asChild
+            >
+              <a href="/katalog-jisoi.pdf" download>
+                📥 Download Katalog
+              </a>
+            </Button>
+          </div>
           <p className="text-sm text-white/60 mt-4">
             Biasanya dibalas dalam beberapa menit · Konsultasi desain, harga & estimasi produksi gratis
           </p>
