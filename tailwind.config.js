@@ -8,14 +8,14 @@ export default {
     extend: {
       colors: {
         jisoi: {
-          red: "#B11226",
-          burgundy: "#3A050B",
-          black: "#12090A",
-          cream: "#FFF7F2",
-          sand: "#E8D4C2",
-          amber: "#FFB23F",
-          text: "#1B1112",
-          border: "#E7D6CE"
+          red: "#FFD700",
+          burgundy: "#1A1400",
+          black: "#0D0D0D",
+          cream: "#FFFDE7",
+          sand: "#FFF8DC",
+          amber: "#CC8800",
+          text: "#1A1A1A",
+          border: "#E8D4A0"
         }
       },
       fontFamily: {
@@ -23,8 +23,8 @@ export default {
         body: ["DM Sans", "Manrope", "sans-serif"]
       },
       boxShadow: {
-        glow: "0 18px 60px rgba(177, 18, 38, 0.25)",
-        amber: "0 12px 32px rgba(255, 178, 63, 0.28)"
+        glow: "0 18px 60px rgba(255, 215, 0, 0.30)",
+        amber: "0 12px 32px rgba(204, 136, 0, 0.35)"
       }
     },
   },

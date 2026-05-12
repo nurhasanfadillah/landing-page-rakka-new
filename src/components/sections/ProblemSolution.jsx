@@ -38,7 +38,7 @@ export default function ProblemSolution() {
           className="text-center mb-8 sm:mb-10"
         >
           <h2 className="text-[30px] md:text-[38px] font-display font-bold leading-[1.1]">
-            Vendor merchandise sering ribet. Jisoi dibuat lebih fleksibel.
+            Vendor merchandise sering ribet. Berkah Rakka Mandiri dibuat lebih fleksibel.
           </h2>
         </motion.div>
 

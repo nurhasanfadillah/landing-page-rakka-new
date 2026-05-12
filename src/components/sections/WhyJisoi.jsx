@@ -9,7 +9,7 @@ const WHY_IMAGES = {
   3: "/images/tim-admin.jpeg",
 }
 
-export default function WhyJisoi() {
+export default function WhyBerkah Rakka Mandiri() {
   return (
     <section className="py-10 sm:py-14 md:py-20 bg-jisoi-cream" id="keunggulan">
       <Container>
@@ -20,7 +20,7 @@ export default function WhyJisoi() {
           className="text-center mb-8 sm:mb-10 md:mb-12"
         >
           <h2 className="text-[30px] md:text-[38px] font-display font-bold leading-[1.1] mb-4">
-            Kenapa bisnis dan event cocok pakai Jisoi?
+            Kenapa bisnis dan event cocok pakai Berkah Rakka Mandiri?
           </h2>
         </motion.div>
 
@@ -34,25 +34,25 @@ export default function WhyJisoi() {
           >
             <img
               src={WHY_IMAGES[0]}
-              alt="Produksi Jisoi - Mesin DTF printing"
+              alt="Produksi Berkah Rakka Mandiri - Mesin DTF printing"
               className="w-full h-32 md:h-48 object-cover rounded-[24px]"
               loading="lazy"
             />
             <img
               src={WHY_IMAGES[1]}
-              alt="Produksi Jisoi - Quality control"
+              alt="Produksi Berkah Rakka Mandiri - Quality control"
               className="w-full h-32 md:h-48 object-cover rounded-[24px]"
               loading="lazy"
             />
             <img
               src={WHY_IMAGES[2]}
-              alt="Proses Cetak DTF Jisoi - Hasil cetak full color"
+              alt="Proses Cetak DTF Berkah Rakka Mandiri - Hasil cetak full color"
               className="w-full h-32 md:h-48 object-cover rounded-[24px]"
               loading="lazy"
             />
             <img
               src={WHY_IMAGES[3]}
-              alt="Tim Jisoi - Admin responsif siap membantu"
+              alt="Tim Berkah Rakka Mandiri - Admin responsif siap membantu"
               className="w-full h-32 md:h-48 object-cover rounded-[24px]"
               loading="lazy"
             />

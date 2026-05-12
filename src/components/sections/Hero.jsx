@@ -61,7 +61,7 @@ export default function Hero() {
           <div className="relative bg-white/10 backdrop-blur rounded-[32px] p-4 md:p-6 border border-white/20 overflow-hidden">
             <img
               src="/images/sample-custom-logo-pouch.png"
-              alt="Custom Pouch Jisoi dengan Logo - Sample Hasil Cetak DTF"
+              alt="Custom Pouch Berkah Rakka Mandiri dengan Logo - Sample Hasil Cetak DTF"
               className="w-full h-auto rounded-[24px] object-cover"
               loading="eager"
               fetchpriority="high"

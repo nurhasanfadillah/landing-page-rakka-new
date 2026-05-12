@@ -5,7 +5,7 @@ import { WHATSAPP_LINK } from "@/data/landingContent"
 
 export default function FinalCta() {
   return (
-    <section className="py-10 sm:py-14 md:py-20 bg-jisoi-red" id="mulai">
+    <section className="py-10 sm:py-14 md:py-20 bg-jisoi-black" id="mulai">
       <Container className="text-center text-white">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -21,7 +21,7 @@ export default function FinalCta() {
           <div className="flex flex-wrap gap-4 justify-center">
             <Button
               size="lg"
-              className="bg-jisoi-amber text-jisoi-burgundy hover:bg-jisoi-amber/90"
+              className="bg-jisoi-red text-jisoi-black hover:bg-jisoi-red/90"
               asChild
             >
               <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer">

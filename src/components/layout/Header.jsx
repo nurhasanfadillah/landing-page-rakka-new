@@ -8,9 +8,9 @@ export default function Header() {
     <header className="fixed top-0 z-50 w-full h-16 bg-jisoi-burgundy/80 backdrop-blur-md">
       <Container className="flex items-center justify-between h-full">
         <div className="flex items-center gap-2">
-          <img src="/images/logo-jisoi.png" alt="Jisoi Logo" className="h-8 w-auto" />
+          <img src="/images/logo-rakka.png" alt="Berkah Rakka Mandiri Logo" className="h-8 w-auto" />
           <span className="font-display text-lg text-white font-bold hidden sm:block">
-            Jisoi Official Store
+            Berkah Rakka Mandiri
           </span>
         </div>
         <div className="hidden md:flex items-center gap-6">

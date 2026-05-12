@@ -1,7 +1,7 @@
 // === WhatsApp Links ===
-export const WHATSAPP_LINK = "https://wa.me/6285819924441"
+export const WHATSAPP_LINK = "https://wa.me/6285156759479"
 export const WHATSAPP_LINK_PREFILLED =
-  "https://wa.me/6285819924441?text=Halo%20Jisoi%2C%20saya%20ingin%20konsultasi%20custom%20pouch%20untuk%20merchandise%2Fevent"
+  "https://wa.me/6285156759479?text=Halo%20Berkah%20Rakka%20Mandiri%2C%20saya%20ingin%20konsultasi%20custom%20pouch%20untuk%20merchandise%2Fevent"
 
 // === Scarcity / Urgency ===
 // Setel ke null untuk nonaktifkan, atau isi teks seperti:
@@ -11,12 +11,12 @@ export const SCARCITY_BADGE = "🔥 Sisa 5 slot produksi minggu ini"
 
 // === Business Info ===
 export const BUSINESS_INFO = {
-  brand: "Jisoi Official Store",
-  company: "PT. Redone Berkah Mandiri Utama",
+  brand: "Berkah Rakka Mandiri",
+  company: "PT. Berkah Rakka Mandiri",
   address: "Jl. Raya Cileungsi-Jonggol Km. 10, Cipeuang, Cileungsi, Bogor, Jawa Barat 16820",
-  website: "www.jisoi.net",
-  email: "info@jisoi.net",
-  whatsapp: "6285819924441",
+  website: "www.berkahrakkamandiri.com",
+  email: "berkahrakkamandiri@gmail.com",
+  whatsapp: "6285156759479",
 }
 
 // === Product Info ===
@@ -184,7 +184,7 @@ export const WORKFLOW_STEPS = [
   },
 ]
 
-// === Why Jisoi ===
+// === Why Berkah Rakka Mandiri ===
 export const WHY_JISOI = [
   {
     title: "Tanpa minimum order",

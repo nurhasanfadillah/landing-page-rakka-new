@@ -17,7 +17,7 @@ export default function Testimonials() {
             Dipercaya oleh ribuan pelanggan puas
           </h2>
           <p className="text-lg text-jisoi-text/60 max-w-2xl mx-auto">
-            Dengarkan pengalaman nyata dari mereka yang sudah menggunakan Jisoi untuk merchandise dan event mereka.
+            Dengarkan pengalaman nyata dari mereka yang sudah menggunakan Berkah Rakka Mandiri untuk merchandise dan event mereka.
           </p>
         </motion.div>
 

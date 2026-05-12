@@ -8,7 +8,7 @@ export default function Footer() {
       <Container>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <img src="/images/logo-jisoi.png" alt="Jisoi Logo" className="h-10 w-auto mb-4" />
+            <img src="/images/logo-rakka.png" alt="Berkah Rakka Mandiri Logo" className="h-10 w-auto mb-4" />
             <h3 className="font-display text-lg mb-3">{BUSINESS_INFO.brand}</h3>
             <p className="text-sm text-white/70">{BUSINESS_INFO.company}</p>
           </div>

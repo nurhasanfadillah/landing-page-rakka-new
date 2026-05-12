@@ -31,7 +31,7 @@ export default function TrustStrip() {
               <motion.img
                 key={logo.src}
                 src={logo.src}
-                alt={`Logo ${logo.name} — klien Jisoi`}
+                alt={`Logo ${logo.name} — klien Berkah Rakka Mandiri`}
                 loading="lazy"
                 initial={{ opacity: 0, y: 10 }}
                 whileInView={{ opacity: 1, y: 0 }}
