@@ -34,7 +34,7 @@ export default function FinalCta() {
               className="text-white border-white/30 hover:bg-white/10"
               asChild
             >
-              <a href="/katalog-jisoi.pdf" download>
+              <a href="/katalog-rakka.pdf" download>
                 📥 Download Katalog
               </a>
             </Button>
