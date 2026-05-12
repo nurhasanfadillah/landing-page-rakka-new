@@ -9,7 +9,7 @@ const WHY_IMAGES = {
   3: "/images/tim-admin.jpeg",
 }
 
-export default function WhyBerkah Rakka Mandiri() {
+export default function WhyRakka() {
   return (
     <section className="py-10 sm:py-14 md:py-20 bg-jisoi-cream" id="keunggulan">
       <Container>
